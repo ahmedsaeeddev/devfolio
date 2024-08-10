@@ -1,0 +1,89 @@
+@media screen and (max-width: 600px) {
+    .links {
+        display: none;
+    }
+
+    a.navBtn {
+        display: flex !important;
+        float: left;
+    }
+
+    .offcanvas-body .links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .myOffcanvas {
+        width: 100% !important;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem !important;
+        font-weight: lighter;
+        margin-left: -40px;
+        color: var(--secondary-color) !important;
+    }
+
+    .hero h2 {
+        font-size: 2rem !important;
+        margin-left: -40px;
+        color: var(--secondary-color);
+    }
+
+    .hero p {
+        margin-left: -40px;
+        font-size: 1rem !important;
+        color: var(--secondary-color) !important;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .myCards {
+        margin: auto !important;
+
+    }
+
+    .card {
+        width: 100px !important;
+        margin-left: -190px;
+    }
+
+    .card-body {
+        width: 100px !important;
+    }
+
+}
+
+@media screen and (max-width: 1269px) {
+    .featuredPortfolio .card {
+        display: none !important;
+    }
+
+    .featuredPortfolio .card1,
+    .featuredPortfolio .card2,
+    .featuredPortfolio .card3,
+    .featuredPortfolio .card4 {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .featuredPortfolio .card3, .featuredPortfolio .card4 {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 329px) {
+    .card {
+        margin-left: -0px !important;
+    }
+
+    .education img {
+        width: 180px !important;
+    }
+
+    .mymain {
+        padding: 10px;
+    }
+}
